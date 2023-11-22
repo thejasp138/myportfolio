@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inconsolata', monospace;
+
+}
+.containere{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+
+}
+.navbar{
+    display:flex;
+    align-items: center;
+   justify-content: space-between;
+    width: 85%;
+    margin-left: 100px;
+
+
+}
+.listitem{
+    display: inline;
+    margin-right: 40px;
+
+}
+#home{
+    height: 400px;
+    margin-top: 1%;
+}
+.logo{
+    width: 200px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: font-size 1s;
+
+}
+.link:hover{
+    color: red;
+    font-size: 30px;
+}
+.titel{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.titel_h1{
+    font-size: 50px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+
+}
+.titel_h1 span{
+    color: #922cdb;
+}
+.titel_p{
+    font-size: 25px;
+    margin-bottom: 30px;
+
+}
+.downlod{
+    background-color:#000000;
+  padding: 10px 5px;
+    color: #ffffff;
+     text-decoration:none ;
+     border-radius: 5px;
+}
+.images{
+    position: absolute;
+    top: 289px;
+    right: -6%;
+    width: 45%;
+    height: 56%;
+
+}
+.img{
+    width: 90%;
+    /* -webkit-transition: all .2s ease-in-out; */
+    transition: width 1s;
+
+}
+
+.img:hover {
+    /* -webkit-transform: scale(0.8); */
+    width: 80%;
+}
+#about{
+    margin-top: 30%;
+    margin-left: 8%;
+
+}
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.heading h1{
+    font-size: 50px;
+
+}
+.heading h3{
+    font-size: 25px;
+
+    color: green;
+}
+.abt_content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 35px;
+
+}
+.abt_img img{
+    width: 78%;
+
+}
+.abt_intro{
+    font-size: 20px;
+    text-align: justify;
+
+}
+.abt_details{
+    margin-top: 10px;
+    margin-left: 40%;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+#skill{
+    margin-top: 30%;
+    margin-left: 8%;
+
+}
+.heading1{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.heading1 h1{
+    font-size: 50px;
+
+}
+.heading1 h3{
+    font-size: 25px;
+
+    color: green;
+}
+.skill_content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 35px;
+
+}
+.skill_img img{
+    width: 78%;
+
+}
+.skill_intro{
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 12%;
+    margin-right: 19%;
+
+}
+.skill_details{
+    margin-top: 10px;
+    margin-left: 40%;
+    font-size: 110%;
+    margin-right: 22%;
+    transition: background-color 0.5s ease-in 0.3s;
+}
+#contact{
+    margin-top: 30%;
+    margin-left: 8%;
+
+}
+.heading2{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.heading2 h1{
+    font-size: 50px;
+
+}
+.heading2 h3{
+    font-size: 25px;
+
+    color: green;
+}
+.cont_content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 35px;
+
+}
+.cont_img img{
+    width: 78%;
+
+}
+.cont_intro{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 12%;
+    margin-right: 19%;
+
+}
+.cont_details{
+    margin-top: 10px;
+    margin-left: 40%;
+    font-size: 110%;
+    margin-right: 22%;
+    transition: background-color 0.5s ease-in 0.3s;
+}
+
+
+
+
+
+
+
